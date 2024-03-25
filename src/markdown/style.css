@@ -112,6 +112,6 @@ div .left-side p{
     .left-side,
     .right-side {
         width: 90%;
-
+        height: 80vh;
     }
 }
