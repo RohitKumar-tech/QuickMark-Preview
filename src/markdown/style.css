@@ -3,15 +3,15 @@
 body {
     display: grid;
     place-items: center;
-    background-color: #3E505B;
+    background-color: #333333;
 }
 
 .center-div {
-    width: 80vw;
+    width: 100vw;
+    height: 100vh;
     margin: auto;
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    box-shadow: 1px 1px 20px  2px #ffffff;
 }
 
 header {
@@ -19,18 +19,18 @@ header {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 100px;
     margin-top: 0px;
     padding: 10px;
-    width: 99vw;
-    background-color: black;
+    width: 99%;
+    background-color: transparent;
     color: azure;
+    margin-left: 0px;
 }
 
 header text {
     font-size: 20px;
     font-weight: 700;
-    background-color: black;
+    background-color: transparent;
     color: azure;
 }
 
@@ -38,9 +38,15 @@ header a {
     text-decoration: none;
     font-size: 20px;
     font-weight: 700;
-    background-color: black;
+    background-color: transparent;
     color: azure;
     padding: 10px;
+}
+
+header a:hover {
+    border-bottom: 2px solid greenyellow;
+    color: lemonchiffon;
+    transition: .1s;
 }
 
 div .left-side p{
@@ -55,6 +61,11 @@ div .left-side p{
     justify-content: center;
     border-radius: 10px;
     font-weight: 700;
+}
+
+.left-side textarea {
+    border: none;
+    outline: none;
 }
 
 .left-side,
@@ -99,6 +110,8 @@ div .left-side p{
 .footer {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     padding: 10px;
     background: black;
     margin-top: 100px;
@@ -136,23 +149,48 @@ div .left-side p{
 .Cheat-sheet a:hover {
     color : azure;
     background-color: #1B065E;
-    transition: .4s ;
+    transition: .3s ;
 }
 
 
 /* Making the website responsive */
 
-@media (max-width : 768px)
+@media (max-width : 765px)
 {
+    .header {
+        width: 100%;
+    }
+
     .center-div {
-        width: 80vw;
-        margin: 100px auto;
+        width: 94%;
+        margin-left: 0px;
+        margin-bottom: 550px;
         display: block;
     }
 
     .left-side,
     .right-side {
-        width: 90%;
+        width: 100%;
         height: 80vh;
+    }
+
+    .Cheat-sheet {
+        margin: 30px;
+    }
+
+    .footer {
+        display: block;
+        padding: 10px;
+        margin-top: 0px;
+    }
+}
+
+@media (max-width : 500px) {
+    header text {
+        font-size: 10px;
+    }
+
+    header a {
+        font-size: 10px;
     }
 }

@@ -83,25 +83,22 @@ This project is based on react.js , html , css . This website converts markdown 
 
 1. [react Markdown](https://www.npmjs.com/package/react-markdown) This library is used to convert markdown code to html code.
 
-2. [React Draft Wysiwyg](https://www.npmjs.com/package/react-draft-wysiwyg) This library is used for making the text-editor.
-
-3. [React Quill](https://www.npmjs.com/package/react-quill) This library is also used for making the text-editor.
+2. [tinymce-react](https://www.tiny.cloud/my-account/integrate/#react) This library is used to get the text editor
 
 ## Snippet of the Website
 
-![Desktop1](images/desktop_1.png)
-![Desktop2](images/desktop_2.png)
-![mobile1](images/Respo_mobile1.jpg)
-![mobile2](images/Respo_mobile2.jpg)
+![Desktop1](images/Desktop_1.png)
+![Desktop2](images/Desktop_2.png)
+![mobile1](images/Mobile_1.jpg)
+![mobile2](images/Mobile_2.jpg)
+![mobile2](images/Mobile_3.jpg)
 
 ## working [ Install the following libraries ]
 
 npm i react-markdown
 
-npm install react-quill --save
-
-npm i react-draft-wysiwyg
+npm install @tinymce/tinymce-react
 
 ## Contibutors
 
-[Rohit Kumar](www.rohitsaraf.in)
+[Rohit Kumar](https://www.rohitsaraf.in)
