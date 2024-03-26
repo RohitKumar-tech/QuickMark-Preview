@@ -2,6 +2,12 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Deployment
+
+[Versal](https://quick-mark-preview.vercel.app/) Free hosting through github.
+
+[Hostinger](https://kumar-rohit.com) Paid hosting deployed using npm run build command and hosted it on hostinger.
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -68,3 +74,34 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `yarn build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+### Highlights of the project
+
+This project is based on react.js , html , css . This website converts markdown code to html code .
+
+## Library used in this project
+
+1. [react Markdown](https://www.npmjs.com/package/react-markdown) This library is used to convert markdown code to html code.
+
+2. [React Draft Wysiwyg](https://www.npmjs.com/package/react-draft-wysiwyg) This library is used for making the text-editor.
+
+3. [React Quill](https://www.npmjs.com/package/react-quill) This library is also used for making the text-editor.
+
+## Snippet of the Website
+
+![Desktop1](images/desktop_1.png)
+![Desktop2](images/desktop_2.png)
+![mobile1](images/Respo_mobile1.jpg)
+![mobile2](images/Respo_mobile2.jpg)
+
+## working [ Install the following libraries ]
+
+npm i react-markdown
+
+npm install react-quill --save
+
+npm i react-draft-wysiwyg
+
+## Contibutors
+
+[Rohit Kumar](www.rohitsaraf.in)

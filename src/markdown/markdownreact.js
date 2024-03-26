@@ -1,13 +1,25 @@
 import React, { useState } from 'react';
 import Markdown from 'markdown-to-jsx';
 import './style.css';
+import 'boxicons';
 
 const MarkdownReact = () => {
     const [markdown, setMarkdown] = useState("");
   
     return (
         <div>
-            <text1>QuickMark-Preview</text1>
+            {/* Header */}
+            <header>
+            <text>QuickMark-Preview</text>
+            <a href='https://www.rohitsaraf.in/'>About</a>
+            </header>
+
+            {/* toolbar */}
+            <div className='toolbar'>
+
+            </div>
+
+            {/* Markdown Console */}
             <div className='center-div'>
             <>
             <div className='left-side'>
@@ -21,12 +33,18 @@ const MarkdownReact = () => {
             </div>
             </>
         </div>
-        <div class="footer">
-        <div class="footer-text">
-            <p>Copyright &copy; 2024 by Rohit Kumar | All Rights Reserved.</p>
+        {/* Documentation */}
+        <div className='Cheat-sheet'>
+            <a href='https://www.markdownguide.org/cheat-sheet/' target='_blank'>Markdown Documentation</a>
         </div>
-        
-    </div>
+
+
+        {/* Footer */}
+        <div class="footer">
+            <div class="footer-text">
+                <p>Copyright &copy; 2024 by Rohit Kumar | All Rights Reserved.</p>
+            </div>
+        </div>
         </div>
     );
 };

@@ -1,0 +1,6 @@
+The React libraries used to make this project includes:
+-> React-markdown
+-> React-Quill
+-> react draft wysiwyg
+$ npm install --save @github/markdown-toolbar-element
+-> boxicon

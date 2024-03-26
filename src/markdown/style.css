@@ -14,19 +14,33 @@ body {
     box-shadow: 1px 1px 20px  2px #ffffff;
 }
 
-text1 {
-    font-size: 30px;
-    font-weight: 700;
+header {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     margin-bottom: 100px;
     margin-top: 0px;
     padding: 10px;
-    width: 100vw;
+    width: 99vw;
     background-color: black;
     color: azure;
+}
+
+header text {
+    font-size: 20px;
+    font-weight: 700;
+    background-color: black;
+    color: azure;
+}
+
+header a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: black;
+    color: azure;
+    padding: 10px;
 }
 
 div .left-side p{
@@ -98,6 +112,33 @@ div .left-side p{
 .footer-text p {
     font-size: 16px;
 }
+
+/* Cheat Sheet */
+
+.Cheat-sheet {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.Cheat-sheet a {
+    text-decoration: none;
+    color: #1B065E;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 8px;
+    background-color: #F4F4ED;
+    border-radius: 10px;
+}
+
+.Cheat-sheet a:hover {
+    color : azure;
+    background-color: #1B065E;
+    transition: .4s ;
+}
+
 
 /* Making the website responsive */
 
