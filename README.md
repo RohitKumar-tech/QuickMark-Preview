@@ -75,7 +75,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
-### Highlights of the project
+## Highlights of the project
 
 This project is based on react.js , html , css . This website converts markdown code to html code .
 
@@ -87,8 +87,8 @@ This project is based on react.js , html , css . This website converts markdown 
 
 ## Snippet of the Website
 
-![Desktop1](images/Desktop_1.png)
-![Desktop2](images/Desktop_2.png)
+![Desktop1](images/desktop_1.png)
+![Desktop2](images/desktop_2.png)
 ![mobile1](images/Mobile_1.jpg)
 ![mobile2](images/Mobile_2.jpg)
 ![mobile2](images/Mobile_3.jpg)
