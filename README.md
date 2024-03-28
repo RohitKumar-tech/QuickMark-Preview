@@ -81,7 +81,7 @@ This project is based on react.js , html , css . This website converts markdown 
 
 ## Library used in this project
 
-1. [react Markdown](https://www.npmjs.com/package/react-markdown) This library is used to convert markdown code to html code.
+1. [Markdown-to-jsx](https://www.npmjs.com/package/markdown-to-jsx) This library is used to convert markdown code to html code.
 
 2. [tinymce-react](https://www.tiny.cloud/my-account/integrate/#react) This library is used to get the text editor
 
@@ -95,7 +95,7 @@ This project is based on react.js , html , css . This website converts markdown 
 
 ## working [ Install the following libraries ]
 
-npm i react-markdown
+npm i markdown-to-jsx
 
 npm install @tinymce/tinymce-react
 
